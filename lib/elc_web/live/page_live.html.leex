@@ -55,7 +55,7 @@
   <dl class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
     <div class="bg-neutral-50 rounded-lg px-6 py-8">
       <dt class="text-md leading-6 font-medium text-neutral-900">
-        平台特性
+        稳定可靠的底层平台
       </dt>
       <dd class="mt-2 text-sm text-neutral-500">
         Elixir 以工业级的 Erlang VM 为基础，拥有高容错、分布式、低延时、热更新等特性，是编写高可用性、高伸缩性、高并发性、软实时性应用的极佳选择。
@@ -64,16 +64,29 @@
 
     <div class="bg-neutral-50 rounded-lg px-6 py-8">
       <dt class="text-md leading-6 font-medium text-neutral-900">
-        生态特性
+        出色的开发配套工具
       </dt>
       <dd class="mt-2 text-sm text-neutral-500">
-        Elixir 团队提供了出色的开发配套工具：
         <ul>
           <li>REPL - <%= external_link "IEx", to: "https://hexdocs.pm/iex", class: "inline-link" %></li>
           <li>构建工具 - <%= external_link "Mix", to: "https://hexdocs.pm/mix", class: "inline-link" %></li>
           <li>包仓库 - <%= external_link "Hex", to: "https://hex.pm/", class: "inline-link" %></li>
           <li>文档中心 - <%= external_link "HexDocs", to: "https://hexdocs.pm/", class: "inline-link" %></li>
           <li>测试框架 - <%= external_link "ExUnit", to: "https://hexdocs.pm/ex_unit", class: "inline-link" %></li>
+        </ul>
+      </dd>
+    </div>
+
+    <div class="bg-neutral-50 rounded-lg px-6 py-8">
+      <dt class="text-md leading-6 font-medium text-neutral-900">
+        可以调用其他语言
+      </dt>
+      <dd class="mt-2 text-sm text-neutral-500">
+        通过 <%= external_link "NIF", to: "https://www.erlang.org/doc/tutorial/nif.html", class: "inline-link" %> 或 Port 与其他语言协作。
+        <ul>
+          <li>C / C++</li>
+          <li>Rust - <%= external_link "Rustler", to: "https://github.com/rusterlium/rustler", class: "inline-link" %> / <%= external_link "Rustler Precompiled", to: "https://github.com/philss/rustler_precompiled", class: "inline-link" %></li>
+          <li>……</li>
         </ul>
       </dd>
     </div>
